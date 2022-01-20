@@ -1,4 +1,4 @@
-# Required Libraries
+# Required Libraries.
 from selenium import webdriver
 from time import sleep
 from webdriver_manager.chrome import ChromeDriverManager
@@ -67,7 +67,7 @@ while 1:
         send.click()
         sleep(3)
 
-        # Finally the message is sent successfully
+        # Finally the message is sent successfully.
         print ('\n==========Done.Message Sent!!!==========\n')
         driver.quit()
         break
