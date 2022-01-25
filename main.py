@@ -1,4 +1,6 @@
-# Required Libraries.
+# pip install selenium
+# pip install webdriver_manager
+
 from selenium import webdriver
 from time import sleep
 from webdriver_manager.chrome import ChromeDriverManager
